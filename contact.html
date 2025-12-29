@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - SP Agencies</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="topbar">
+      <h1 class="logo">SP Agencies</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="chat.html">Chat With Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Form Section -->
+  <section class="contact-section">
+    <h2>Get the List of Top Laptop Repair & Services - SP Agencies</h2>
+    <p>We’ll send contact details in seconds — absolutely free!</p>
+
+    <form id="contactForm">
+      <label>What is your primary concern?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="issue" value="Hardware Issue" required> Hardware Issue</label>
+        <label><input type="radio" name="issue" value="Software Issue"> Software Issue</label>
+      </div>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      <span id="nameError" class="error-message"></span>
+
+      <label for="mobile">Mobile Number:</label>
+      <input type="tel" id="mobile" placeholder="Enter your mobile number" required>
+
+      <button type="submit" class="submit-btn">Send Enquiry &gt;&gt;&gt;</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SP Agencies. All rights reserved.</p>
+  </footer>
+</body>
+</html>
